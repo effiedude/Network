@@ -1,0 +1,4 @@
+rootProject.name='NetworkBase'
+
+include ':Main'
+include ':JarModule'
