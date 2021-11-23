@@ -1,4 +1,4 @@
-rootProject.name='NetworkBase'
+rootProject.name='Network'
 
 include ':Main'
 include ':JarModule'

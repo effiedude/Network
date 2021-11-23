@@ -24,7 +24,6 @@ allprojects
         maven
         {
             url GITxREPOxPUBLICxURL
-            credentials {username GITxTOKEN}
         }
     }
 }
