@@ -1,4 +1,4 @@
-package com.townspriter.android.base.network;
+package com.townspriter.network;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;

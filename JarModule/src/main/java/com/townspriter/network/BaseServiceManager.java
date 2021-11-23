@@ -1,4 +1,4 @@
-package com.townspriter.android.base.network;
+package com.townspriter.network;
 
 import java.util.Map;
 import android.util.Log;

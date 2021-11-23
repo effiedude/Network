@@ -1,4 +1,4 @@
-package com.townspriter.android.base.network;
+package com.townspriter.network;
 
 import org.jetbrains.annotations.NotNull;
 import android.util.Log;

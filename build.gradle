@@ -17,6 +17,15 @@ allprojects
     {
         google()
         jcenter()
+        maven
+        {
+            url MAVENxREPOxPUBLICxURL
+        }
+        maven
+        {
+            url GITxREPOxPUBLICxURL
+            credentials {username GITxTOKEN}
+        }
     }
 }
 

@@ -1,7 +1,8 @@
 plugins {id 'com.android.library'}
+apply from:'tools.gradle'
 
-group 'com.townspriter.android.base'
-ext.artifactId='network'
+group 'com.townspriter.network'
+ext.artifactId='Core'
 
 android
 {
@@ -70,13 +71,13 @@ dependencies
     implementation 'org.greenrobot:eventbus:3.2.0'
 }
 
-task deleteOldJar(type:Delete) {delete 'food/RxNetwork.aar'}
+task deleteOldJar(type:Delete) {delete 'food/Network.aar'}
 
 task exportJar(type:Copy){
     from('build/outputs/aar/')
     into('food/')
-    include('RxNetwork-release.aar')
-    rename('RxNetwork-release.aar','RxNetwork.aar')
+    include('JarModule-release.aar')
+    rename('JarModule-release.aar','Network.aar')
 }
 
 exportJar.dependsOn(deleteOldJar,build)

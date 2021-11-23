@@ -1,4 +1,4 @@
-package com.townspriter.android.base.network;
+package com.townspriter.network;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

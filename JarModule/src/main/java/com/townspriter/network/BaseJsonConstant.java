@@ -1,4 +1,4 @@
-package com.townspriter.android.base.network;
+package com.townspriter.network;
 /******************************************************************************
  * @path RxNetwork:BaseJsonConstant
  * @version 1.0.0.0
